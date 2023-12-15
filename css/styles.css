@@ -1,0 +1,210 @@
+body {
+    background-color:#e4f1f1;
+}
+
+
+
+
+.container-fluid {
+    padding: 3% 15%;
+}
+h1 {
+    font-family: 'Playfair Display';
+    font-weight: regular;
+    font-size: 2rem;
+    line-height: 2;
+    color: #000000;
+    
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-size: 1.5;
+    color:#fff;
+
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+p {
+    color:#8f8f8f;
+}
+
+
+/* Navigation Bar*/
+
+.navbar {
+ padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display';
+    font-size: 1.5rem;
+    font-weight: regular;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: 'Playfair Display';
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* Title image */
+
+.title-image {
+    width: 50%;
+    margin: 0 40% 15%;
+    border-radius: 25px;
+}
+/* About Section */
+
+#about {
+    margin: 3% 8%
+}
+.personal-photo {
+    width: 50%;
+    margin: 0 40% 15%;
+    border-radius: 5px;
+}
+
+p.self-intro {
+    color:#000000;
+    font-size: large;
+    line-height: 2;
+
+}
+/* Project Section*/
+#project {
+    width: 992px;
+    height: 1892px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    display: inline-flex;
+}
+
+.project-frame {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    display: flex;
+}
+
+.project-heading {
+    text-align: center;
+    color: #25282B;
+    font-size: 48px;
+    font-family: Playfair Display;
+    font-weight: 400;
+    line-height: 72px;
+    word-wrap: break-word;
+}
+
+.project-box {
+    width: 992px;
+    height: 496px;
+    box-shadow: 0px 6px 64px rgba(112, 144, 176, 0.10);
+    border-radius: 24px;
+    margin: 1% 5%;
+    overflow: hidden;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-flex;
+}
+
+.project-info {
+    width: 496px;
+    height: 496px;
+    padding-top: 146.50px;
+    padding-bottom: 145.50px;
+    padding-left: 50.44px;
+    padding-right: 38.88px;
+    background: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.project-info-textbox {
+    height: 232px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    display: inline-flex;
+}
+
+.project-info-title {
+    align-self: stretch;
+    color: #25282B;
+    font-size: 40px;
+    font-family: Playfair Display;
+    font-weight: 300;
+    line-height: 60px;
+    word-wrap: break-word;
+}
+
+.project-info-text {
+    align-self: stretch;
+    color: #828282;
+    font-size: 18px;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+
+.project-button {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 24px;
+    border: 1px #25282B solid;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-flex;
+    background-color:#fff;
+}
+
+.project-button:hover {
+    background-color:#cccbcb;
+}
+
+.project-button-text {
+    color: #25282B;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+
+img {
+   object-fit: cover; 
+}
+
+
+
+
+
+/* Footer Section */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
